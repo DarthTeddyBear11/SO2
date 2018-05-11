@@ -1,13 +1,14 @@
-﻿Build started 11/05/2018 04:47:34.
-     1>Project "C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\dll\dll.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/05/2018 05:29:39.
+     1>Project "C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\dll\dll.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\dll.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cpp
          dll.cpp
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\Debug\dll.lib" /NOLOGO Debug\dll.obj
-         dll.vcxproj -> C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\Debug\dll.lib
-     1>Done Building Project "C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\dll\dll.vcxproj" (Build target(s)).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\Debug\dll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\Debug\dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\Debug\dll.lib" /MACHINE:X86 /DLL Debug\dll.obj
+            Creating library C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\Debug\dll.lib and object C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\Debug\dll.exp
+         dll.vcxproj -> C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\Debug\dll.dll
+     1>Done Building Project "C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\SO2\PhoenixMultiplayer\dll\dll.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.06
+Time Elapsed 00:00:01.83

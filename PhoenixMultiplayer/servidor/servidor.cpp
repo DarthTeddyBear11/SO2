@@ -5,7 +5,8 @@
 int _tmain(int argc, TCHAR argv[]) {
 
 
-	ola();
+	riven();
+	onServerCreate();
 	_getch();
 	return 0;
 }

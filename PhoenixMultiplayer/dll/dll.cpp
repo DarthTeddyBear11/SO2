@@ -1,72 +1,12 @@
+#include"dll.h"
 
-
-
-#include <aclapi.h>
-#include <strsafe.h>
-#include <sddl.h> 
-
-#include "dll.h"
-
-//#include "resource.h"
-
-
-
-int ola(void) {
-
-
-	_tprintf(TEXT("Olá Mundo"));
-	_getch();
+int riven() {
+	printf("\nOla mundo da DLL V2.0\n\n");
 	return 0;
 }
 
-
-//cliente
-//int leComando() {
-//
-//	int KEY_code = 0;
-//
-//	while (KEY_code != KEY_EXIT)
-//	{
-//		if (_getwch())
-//		{
-//			KEY_code = _getwch();
-//			//printf("KEY_code = %i \n", KEY_code);
-//
-//			switch (KEY_code)
-//			{
-//			case KEY_LEFT:
-//				//move para esquerda
-//				break;
-//
-//			case KEY_RIGHT:
-//				//Move para direita                
-//				break;
-//
-//			case KEY_UP:
-//				//Do something                     
-//				break;
-//
-//			case KEY_DOWN:
-//				//Do something                     
-//				break;
-//
-//			case KEY_SPACE:
-//				//Dispara                 
-//				break;
-//
-//			}
-//
-//		}
-//	}
-//
-//	return 0;
-//
-//
-//
-//}
-
-
-int onServerCreate(){
+int onServerCreate()
+{
 
 	CircularBufferInfo cbuffer;
 	hMapFile = CreateFileMapping(INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE,
@@ -155,6 +95,3 @@ int onServerCreate(){
 	}
 	return 1;
 }
-
-
-
