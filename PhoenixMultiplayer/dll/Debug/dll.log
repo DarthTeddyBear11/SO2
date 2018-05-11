@@ -1,0 +1,13 @@
+﻿Build started 11/05/2018 04:47:34.
+     1>Project "C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\dll\dll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\dll.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cpp
+         dll.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\Debug\dll.lib" /NOLOGO Debug\dll.obj
+         dll.vcxproj -> C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\Debug\dll.lib
+     1>Done Building Project "C:\Users\Emanuel\Desktop\New folder\Trabalho-Pratico\PhoenixMultiplayer\dll\dll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
